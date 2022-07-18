@@ -50,4 +50,4 @@ VOLUME ["/usr/src/app/localData","/usr/src/app/localMetadata"]
 
 ENTRYPOINT ["/usr/src/app/docker-entrypoint.sh"]
 
-CMD [ "SCALITY_ACCESS_KEY_ID=newAccessKey SCALITY_SECRET_ACCESS_KEY=newSecretKey yarn start","yarn", "start" ]
+CMD [ "SCALITY_ACCESS_KEY_ID=newAccessKey SCALITY_SECRET_ACCESS_KEY=newSecretKey","yarn", "start" ]
