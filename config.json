@@ -31,7 +31,7 @@
                         "zenkoazuretest.blob.core.windows.net"],
     "replicationEndpoints": [{
         "site": "zenko",
-        "servers": ["185.227.134.143:8000"],
+        "servers": ["127.0.0.1:8000"],
         "default": true
     }, {
         "site": "us-east-2",
