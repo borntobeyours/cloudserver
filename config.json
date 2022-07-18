@@ -12,7 +12,9 @@
         "127.0.0.2": "us-east-1",
         "s3.amazonaws.com": "us-east-1",
         "zenko-cloudserver-replicator": "us-east-1",
-        "lb": "us-east-1"
+        "lb": "us-east-1",
+        "185.227.134.143": "us-east-1",
+        "cdn.banana-live.my.id": "us-east-1"
     },
     "websiteEndpoints": ["s3-website-us-east-1.amazonaws.com",
                         "s3-website.us-east-2.amazonaws.com",
