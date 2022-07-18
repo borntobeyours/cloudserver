@@ -1,8 +1,8 @@
 FROM node:16.13.2-slim
 MAINTAINER Giorgio Regni <gr@scality.com>
 
-ENV NO_PROXY 185.227.134.143
-ENV no_proxy 185.227.134.143
+ENV NO_PROXY localhost,127.0.0.1
+ENV no_proxy localhost,127.0.0.1
 
 EXPOSE 8000
 EXPOSE 8002
